@@ -1,0 +1,28 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  height: 100vh;
+  justify-content: center;
+  font-weight: bolder;
+  background-color: rgb(165, 117, 218);
+  color: white;
+}
+
+.btn{
+  margin: 10px;
+  font-size: 20px;
+  border: 2px solid white;
+  background-color: rgb(153, 103, 206);
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+
+}
